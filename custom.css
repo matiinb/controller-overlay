@@ -1,0 +1,116 @@
+.controller.custom {
+  position: relative;
+  width: 1450px;
+  height: 1080px;
+  background: url("base.png") no-repeat 0 0 / 100% 100%;
+}
+
+.custom.disconnected div {
+  display: none;
+}
+
+.custom .button,
+.custom .face,
+.custom .bumper,
+.custom .trigger,
+.custom .stick,
+.custom .meta,
+.custom .arrows,
+.custom .quadrant,
+.custom .trigger-button {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat !important;
+  background-position: 0 0 !important;
+  background-size: 100% 100% !important;
+  opacity: 0;
+  box-shadow: none !important;
+}
+
+.custom .quadrant,
+.custom .arrows,
+.custom .back,
+.custom .start,
+.custom .xbox {
+  display: none !important;
+}
+
+/* Face buttons
+   .a = cross
+   .b = circle
+   .x = square
+   .y = triangle
+*/
+.custom .button.a.pressed {
+  opacity: 1;
+  background-image: url("pressed/cross.png");
+}
+
+.custom .button.b.pressed {
+  opacity: 1;
+  background-image: url("pressed/circle.png");
+}
+
+.custom .button.x.pressed {
+  opacity: 1;
+  background-image: url("pressed/square.png");
+}
+
+.custom .button.y.pressed {
+  opacity: 1;
+  background-image: url("pressed/triangle.png");
+}
+
+/* D-pad */
+.custom .face.up.pressed {
+  opacity: 1;
+  background-image: url("pressed/dpad_up.png");
+}
+
+.custom .face.down.pressed {
+  opacity: 1;
+  background-image: url("pressed/dpad_down.png");
+}
+
+.custom .face.left.pressed {
+  opacity: 1;
+  background-image: url("pressed/dpad_left.png");
+}
+
+.custom .face.right.pressed {
+  opacity: 1;
+  background-image: url("pressed/dpad_right.png");
+}
+
+/* l1 - r1 */
+.custom .bumper.left.pressed {
+  opacity: 1;
+  background-image: url("pressed/l1.png");
+}
+
+.custom .bumper.right.pressed {
+  opacity: 1;
+  background-image: url("pressed/r1.png");
+}
+
+/* l2 - r2 */
+.custom .trigger.left {
+  background-image: url("pressed/l2.png");
+}
+
+.custom .trigger.right {
+  background-image: url("pressed/r2.png");
+}
+
+/* sticks */
+.custom .stick.left {
+  opacity: 1;
+  background-image: url("stick_left.png");
+}
+
+.custom .stick.right {
+  opacity: 1;
+  background-image: url("stick_right.png");
+}
