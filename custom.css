@@ -45,72 +45,72 @@
 */
 .custom .button.a.pressed {
   opacity: 1;
-  background-image: url("pressed/cross.png");
+  background-image: url("https://raw.githubusercontent.com/matiinb/controller-overlay/main/pressed/cross.png");
 }
 
 .custom .button.b.pressed {
   opacity: 1;
-  background-image: url("pressed/circle.png");
+  background-image: url("https://raw.githubusercontent.com/matiinb/controller-overlay/main/pressed/circle.png");
 }
 
 .custom .button.x.pressed {
   opacity: 1;
-  background-image: url("pressed/square.png");
+  background-image: url("https://raw.githubusercontent.com/matiinb/controller-overlay/main/pressed/square.png");
 }
 
 .custom .button.y.pressed {
   opacity: 1;
-  background-image: url("pressed/triangle.png");
+  background-image: url("https://raw.githubusercontent.com/matiinb/controller-overlay/main/pressed/triangle.png");
 }
 
 /* D-pad */
 .custom .face.up.pressed {
   opacity: 1;
-  background-image: url("pressed/dpad_up.png");
+  background-image: url("https://raw.githubusercontent.com/matiinb/controller-overlay/main/pressed/dpad_up.png");
 }
 
 .custom .face.down.pressed {
   opacity: 1;
-  background-image: url("pressed/dpad_down.png");
+  background-image: url("https://raw.githubusercontent.com/matiinb/controller-overlay/main/pressed/dpad_down.png");
 }
 
 .custom .face.left.pressed {
   opacity: 1;
-  background-image: url("pressed/dpad_left.png");
+  background-image: url("https://raw.githubusercontent.com/matiinb/controller-overlay/main/pressed/dpad_left.png");
 }
 
 .custom .face.right.pressed {
   opacity: 1;
-  background-image: url("pressed/dpad_right.png");
+  background-image: url("https://raw.githubusercontent.com/matiinb/controller-overlay/main/pressed/dpad_right.png");
 }
 
 /* l1 - r1 */
 .custom .bumper.left.pressed {
   opacity: 1;
-  background-image: url("pressed/l1.png");
+  background-image: url("https://raw.githubusercontent.com/matiinb/controller-overlay/main/pressed/l1.png");
 }
 
 .custom .bumper.right.pressed {
   opacity: 1;
-  background-image: url("pressed/r1.png");
+  background-image: url("https://raw.githubusercontent.com/matiinb/controller-overlay/main/pressed/r1.png");
 }
 
 /* l2 - r2 */
 .custom .trigger.left {
-  background-image: url("pressed/l2.png");
+  background-image: url("https://raw.githubusercontent.com/matiinb/controller-overlay/main/pressed/l2.png");
 }
 
 .custom .trigger.right {
-  background-image: url("pressed/r2.png");
+  background-image: url("https://raw.githubusercontent.com/matiinb/controller-overlay/main/pressed/r2.png");
 }
 
 /* sticks */
 .custom .stick.left {
   opacity: 1;
-  background-image: url("stick_left.png");
+  background-image: url("https://raw.githubusercontent.com/matiinb/controller-overlay/main/stick_left.png");
 }
 
 .custom .stick.right {
   opacity: 1;
-  background-image: url("stick_right.png");
+  background-image: url("https://raw.githubusercontent.com/matiinb/controller-overlay/main/stick_right.png");
 }
