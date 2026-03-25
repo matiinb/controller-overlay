@@ -3,30 +3,32 @@ body {
   overflow: hidden;
 }
 
-.controller.ds4 {
+.controller.custom {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
   width: 1450px;
   height: 1080px;
+
   background: url("https://matiinb.github.io/controller-overlay/base.png") no-repeat center;
   background-size: 100% 100%;
 }
 
-.ds4.disconnected div {
+.custom.disconnected div {
   display: none;
 }
 
-.ds4 .button,
-.ds4 .face,
-.ds4 .bumper,
-.ds4 .trigger,
-.ds4 .stick,
-.ds4 .meta,
-.ds4 .arrows,
-.ds4 .quadrant,
-.ds4 .trigger-button {
+.custom .button,
+.custom .face,
+.custom .bumper,
+.custom .trigger,
+.custom .stick,
+.custom .meta,
+.custom .arrows,
+.custom .quadrant,
+.custom .trigger-button {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -38,83 +40,84 @@ body {
   box-shadow: none !important;
 }
 
-.ds4 .quadrant,
-.ds4 .arrows,
-.ds4 .back,
-.ds4 .start,
-.ds4 .xbox {
+/* hide built-in visuals */
+.custom .quadrant,
+.custom .arrows,
+.custom .back,
+.custom .start,
+.custom .xbox {
   display: none !important;
 }
 
 /* face buttons */
-.ds4 .button.a.pressed {
+.custom .button.a.pressed {
   opacity: 1;
   background-image: url("https://matiinb.github.io/controller-overlay/pressed/cross.png");
 }
 
-.ds4 .button.b.pressed {
+.custom .button.b.pressed {
   opacity: 1;
   background-image: url("https://matiinb.github.io/controller-overlay/pressed/circle.png");
 }
 
-.ds4 .button.x.pressed {
+.custom .button.x.pressed {
   opacity: 1;
   background-image: url("https://matiinb.github.io/controller-overlay/pressed/square.png");
 }
 
-.ds4 .button.y.pressed {
+.custom .button.y.pressed {
   opacity: 1;
   background-image: url("https://matiinb.github.io/controller-overlay/pressed/triangle.png");
 }
 
 /* dpad */
-.ds4 .face.up.pressed {
+.custom .face.up.pressed {
   opacity: 1;
   background-image: url("https://matiinb.github.io/controller-overlay/pressed/dpad_up.png");
 }
 
-.ds4 .face.down.pressed {
+.custom .face.down.pressed {
   opacity: 1;
   background-image: url("https://matiinb.github.io/controller-overlay/pressed/dpad_down.png");
 }
 
-.ds4 .face.left.pressed {
+.custom .face.left.pressed {
   opacity: 1;
   background-image: url("https://matiinb.github.io/controller-overlay/pressed/dpad_left.png");
 }
 
-.ds4 .face.right.pressed {
+.custom .face.right.pressed {
   opacity: 1;
   background-image: url("https://matiinb.github.io/controller-overlay/pressed/dpad_right.png");
 }
 
-/* l1 r1 */
-.ds4 .bumper.left.pressed {
+/* l1 / r1 */
+.custom .bumper.left.pressed {
   opacity: 1;
   background-image: url("https://matiinb.github.io/controller-overlay/pressed/l1.png");
 }
 
-.ds4 .bumper.right.pressed {
+.custom .bumper.right.pressed {
   opacity: 1;
   background-image: url("https://matiinb.github.io/controller-overlay/pressed/r1.png");
 }
 
-/* l2 r2 */
-.ds4 .trigger.left {
+/* l2 / r2 */
+.custom .trigger.left {
   background-image: url("https://matiinb.github.io/controller-overlay/pressed/l2.png");
 }
 
-.ds4 .trigger.right {
+.custom .trigger.right {
   background-image: url("https://matiinb.github.io/controller-overlay/pressed/r2.png");
 }
 
 /* sticks */
-.ds4 .stick.left {
+.custom .stick.left {
   opacity: 1;
   background-image: url("https://matiinb.github.io/controller-overlay/stick_left.png");
 }
 
-.ds4 .stick.right {
+.custom .stick.right {
   opacity: 1;
   background-image: url("https://matiinb.github.io/controller-overlay/stick_right.png");
 }
